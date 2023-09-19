@@ -15,6 +15,20 @@ namespace AM.ApplicationCore.Domain
         public string LastName { get; set; }
         public string TelNumber { get; set; }
         public ICollection<Flight> ListFlights { get; set; }
-
+        public override string ToString()
+        {
+            return "Nom=" + FirstName + " , Prenom=" + LastName + " , Date de naiisance=" + BirthDate + " , Email =" + EmailAdress;
+        }
+        public bool CheckProfile(string firstname, string lastname,string emailaddress=null)
+        {
+            if (emailaddress != null) 
+            { 
+                return FirstName==firstname && LastName== lastname && EmailAdress == emailaddress;
+            }
+            else
+            {
+                 return FirstName == firstname && LastName == lastname;
+            }
+        }
     }
 }

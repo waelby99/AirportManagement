@@ -10,5 +10,9 @@ namespace AM.ApplicationCore.Domain
     {
         public string HealthyInformation { get; set; }
         public string Nationality { get; set; }
+        public override string ToString()
+        {
+            return base.ToString() + "Nationalité=" + Nationality;
+        }
     }
 }

@@ -12,3 +12,7 @@ C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\refi
 C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\AM.UI.Console.pdb
 C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\AM.UI.Console.genruntimeconfig.cache
 C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\ref\AM.UI.Console.dll
+C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\AM.UI.Console.csproj.AssemblyReference.cache
+C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\bin\Debug\net6.0\AM.ApplicationCore.dll
+C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\bin\Debug\net6.0\AM.ApplicationCore.pdb
+C:\Users\MSII\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net6.0\AM.UI.Console.csproj.CopyComplete
