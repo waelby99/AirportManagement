@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using AM.ApplicationCore.Domain;
+using AM.ApplicationCore.Services;
 
 /*Plane p1 = new Plane(); 
 p1.Capacity = 200;
@@ -13,3 +14,11 @@ Plane p3 =new Plane { Capacity=300, PlaneType = PlaneType.Airbus, ManufactureDat
 Console.WriteLine(p2.ToString());*/
 Passeneger pa1 = new Passeneger { FirstName = "Wael", LastName="Ben youssef",EmailAdress="wael@gmail.com"};
 Console.WriteLine(pa1.CheckProfile("Wael", "Benyoussef"));
+
+FlightMethods FM = new FlightMethods();
+FM.Flights = TestData.listFlights;
+foreach (var item in FM.GetFlightDates("Paris"))
+{
+    Console.WriteLine(item);
+} ;
+
