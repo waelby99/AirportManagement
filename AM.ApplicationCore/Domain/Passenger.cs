@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
         //TP1-Q6: Réimplémenter la méthode ToString()
         public override string ToString()
         {
-            return "FirstName: " + FirstName + " LastName: " + LastName + " date of Birth: " + BirthDate;
+            return "FirstName: " + FirstName + " LastName: " + LastName + " date of Birth: "+ BirthDate;
         }
 
         //TP1-Q10: Créer les trois méthodes bool CheckProfile(...)

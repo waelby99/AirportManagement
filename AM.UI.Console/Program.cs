@@ -38,7 +38,7 @@ Console.WriteLine("La méthode PassengerType t1:");
 t1.PassengerType();
 FlightMethods fm = new FlightMethods();
 fm.Flights = TestData.listFlights;
-foreach (var item in fm.GetFlightDates("Paris"))
+foreach (var item in fm.GetFlightDates("Paris")) 
 {
     Console.WriteLine(item);
 }
@@ -58,6 +58,3 @@ foreach (var item in fm.SeniorTravellers(TestData.flight1))
 }
 Console.WriteLine("delegué");
 fm.FlightDetailsDel(TestData.BoingPlane);
-
-Console.WriteLine("delegué 2");
-Console.WriteLine(fm.DurationAverageDel("Madrid"));
