@@ -45,7 +45,7 @@ foreach (var item in fm.GetFlightDates("Paris"))
 fm.GetFlights("Destination", "Paris");
 fm.DestinationGroupedFlights();
 fm.ShowFlightDetails(TestData.Airbusplane);
-
+Console.WriteLine("ProgrammedFlightNumber");
 Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2022, 01, 27)));
 Console.WriteLine(fm.DurationAverage("Madrid"));
 foreach (var item in fm.OrderedDurationFlights())
@@ -58,3 +58,5 @@ foreach (var item in fm.SeniorTravellers(TestData.flight1))
 }
 Console.WriteLine("delegué");
 fm.FlightDetailsDel(TestData.BoingPlane);
+Console.WriteLine("delegué 2");
+Console.WriteLine( fm.DurationAverageDel("Madrid"));
