@@ -1,20 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Domain
 {
-    public class Staff : Passeneger
+    public class Staff : Passenger
     {
-        public DateTime EmploymentDate { get; set; }
         public string Function { get; set; }
+        public DateTime EmployementDate { get; set; }
         public float Salary { get; set; }
+
+        //TP1-Q6: Réimplémenter la méthode ToString()
         public override string ToString()
         {
-            return base.ToString()+"Fonction=" + Function ;
+            base.ToString();
+            return "Function: " + Function + " EmployementDate : " + EmployementDate + " Salary: " + Salary;
+        }
+
+        //TP1-Q11.b: Réimplémenter la méthode PassengerType()
+        public override void PassengerType()
+        {
+            base.PassengerType();
+            Console.WriteLine("and I'm a staff member");
         }
     }
 }
