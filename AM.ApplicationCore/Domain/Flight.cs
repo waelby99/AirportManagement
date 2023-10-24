@@ -9,6 +9,7 @@ namespace AM.ApplicationCore.Domain
     public class Flight
     {
         public int FlightId { get; set; }
+        public string AirlineLogo { get; set; }
         public DateTime FlightDate { get; set; }
         public int EstimatedDuration { get; set; }
         public DateTime EffectiveArrival { get; set; }
@@ -21,7 +22,7 @@ namespace AM.ApplicationCore.Domain
         //TP1-Q6: Réimplémenter la méthode ToString()
         public override string ToString()
         {
-            return "FlightId: " + FlightId + " FlightDate: " + FlightDate + " Destination: " + Destination + " Estimated Duration: "+EstimatedDuration;
+            return "FlightId: " + FlightId + " FlightDate: " + FlightDate + " Destination: " + Destination;
         }
     }
 }
