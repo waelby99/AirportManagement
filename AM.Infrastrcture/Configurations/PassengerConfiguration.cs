@@ -18,6 +18,10 @@ namespace AM.Infrastrcture.Configurations
                 f.Property(n => n.LastName).HasColumnName("PassLastName").IsRequired();
 
             });
+           /* builder.HasDiscriminator<string>("isTraveller")
+                .HasValue<Passenger>("0")
+                .HasValue<Traveller>("1")
+                .HasValue<Staff>("2");*/
         }
     }
 }

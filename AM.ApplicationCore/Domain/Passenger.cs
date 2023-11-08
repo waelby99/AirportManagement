@@ -25,7 +25,8 @@ namespace AM.ApplicationCore.Domain
         [EmailAddress]
         public string EmailAddress { get; set; }
         //prop de navigation
-        public virtual List<Flight> Flights { get; set; }
+       // public virtual List<Flight> Flights { get; set; }
+       public virtual List<Ticket> Tickets { get; set; }    
 
         //TP1-Q6: Réimplémenter la méthode ToString()
         public override string ToString()

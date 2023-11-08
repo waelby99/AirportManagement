@@ -19,7 +19,7 @@ namespace AM.Infrastructure
         }
 
         public DbSet<Flight> Flights { get; set; }
-        public DbSet<Plane> Plans { get; set; }
+        public DbSet<Plane> Planes { get; set; }
         public DbSet<Passenger> Passengers { get; set; }
         public DbSet<Traveller> Travellers { get; set; }
         public DbSet<Staff> Staffs { get; set; }
@@ -28,11 +28,15 @@ namespace AM.Infrastructure
             modelBuilder.ApplyConfiguration(new PlaneConfiguration());
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
             modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+            modelBuilder.ApplyConfiguration(new TicketConfiguration());
+
+            modelBuilder.Entity<Staff>().ToTable("Staffs");
+            modelBuilder.Entity<Traveller>().ToTable("Travellers");
         }
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
         {
             configurationBuilder.Properties<DateTime>().HaveColumnType("date");
-           //configurationBuilder.Properties<String>().HaveMaxLength(50);
+           configurationBuilder.Properties<String>().HaveMaxLength(50);
         }
     }
 }

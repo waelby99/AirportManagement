@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AM.ApplicationCore.Domain;
+using AM.Infrastructure;
 
 //Console.WriteLine("Hello, World!");
 
@@ -35,3 +36,10 @@ Console.WriteLine("La méthode PassengerType s1:");
 s1.PassengerType();
 Console.WriteLine("La méthode PassengerType t1:");
 t1.PassengerType();
+
+
+AMContext context = new AMContext();
+//context.Planes.Add(TestData.BoingPlane);
+context.Flights.Add(TestData.flight2);
+context.SaveChanges();
+//Console.WriteLine(context.Flights.First().Plane.Capacity);

@@ -14,9 +14,9 @@ namespace AM.Infrastrcture.Configurations
         public void Configure(EntityTypeBuilder<Flight> builder)
         {
 
-            builder.HasMany(f => f.Passengers)
-                .WithMany(p => p.Flights)
-                .UsingEntity(t => t.ToTable("MyReservation"));
+            //builder.HasMany(f => f.Passengers)
+            //    .WithMany(p => p.Flights)
+            //    .UsingEntity(t => t.ToTable("MyReservation"));
 
             builder.HasOne(f => f.Plane)
                 .WithMany(p => p.Flights)
