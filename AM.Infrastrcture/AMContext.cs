@@ -13,6 +13,7 @@ namespace AM.Infrastructure
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseLazyLoadingProxies();
             optionsBuilder.UseSqlServer(@"Data Source=(localdb)\mssqllocaldb;
             Initial Catalog=WaelDB;Integrated Security=true");
             base.OnConfiguring(optionsBuilder);

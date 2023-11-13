@@ -17,7 +17,7 @@ namespace AM.ApplicationCore.Domain
         public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }
         public DateTime ManufactureDate { get; set; }
-        [Range(1, int.MaxValue)]
+        [Range(0, int.MaxValue)]
         public int Capacity { get; set; }
         //prop de navigation
         public virtual List<Flight> Flights { get; set; }
