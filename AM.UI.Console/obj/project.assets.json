@@ -221,11 +221,11 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Proxies/7.0.12": {
+      "Microsoft.EntityFrameworkCore.Proxies/7.0.13": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "5.1.0",
-          "Microsoft.EntityFrameworkCore": "7.0.12"
+          "Microsoft.EntityFrameworkCore": "7.0.13"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
@@ -270,6 +270,18 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.13"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -1112,8 +1124,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+          "Microsoft.EntityFrameworkCore": "7.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12"
         },
         "compile": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
@@ -1122,20 +1134,20 @@
           "bin/placeholder/AM.ApplicationCore.dll": {}
         }
       },
-      "AM.Infrastrcture/1.0.0": {
+      "AM.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AM.ApplicationCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.Proxies": "7.0.12",
+          "Microsoft.EntityFrameworkCore.Proxies": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
         "compile": {
-          "bin/placeholder/AM.Infrastrcture.dll": {}
+          "bin/placeholder/AM.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AM.Infrastrcture.dll": {}
+          "bin/placeholder/AM.Infrastructure.dll": {}
         }
       }
     }
@@ -1449,17 +1461,17 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Proxies/7.0.12": {
-      "sha512": "13ehSyaRGGHOhAO8UJTVQC2zxkt7ya2jktt4By8ReteugYpkGqUehz3y4adV+/hY8qlJ4zrRdpSYmJYENAud5A==",
+    "Microsoft.EntityFrameworkCore.Proxies/7.0.13": {
+      "sha512": "AwL8z9Ltskm06EpHeTRymeEW2U28m1RDA1hOCB0jMFRCGSUty5lBw4AiNlPdxOy1IMUDqi2ODHwXbN3xnxXH6Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.proxies/7.0.12",
+      "path": "microsoft.entityframeworkcore.proxies/7.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.xml",
-        "microsoft.entityframeworkcore.proxies.7.0.12.nupkg.sha512",
+        "microsoft.entityframeworkcore.proxies.7.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.proxies.nuspec"
       ]
     },
@@ -1489,6 +1501,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+      "sha512": "Z2edRVeoCqvWdNNHHoqbiNhRBetXfh/GBAga6bXM0mmRWzYZ0Y8F+jUFWF/8BUdnbv/8RAafIkWLVMT0jdxMLQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/7.0.13",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -3009,18 +3046,19 @@
       "path": "../AM.ApplicationCore/AM.ApplicationCore.csproj",
       "msbuildProject": "../AM.ApplicationCore/AM.ApplicationCore.csproj"
     },
-    "AM.Infrastrcture/1.0.0": {
+    "AM.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../AM.Infrastrcture/AM.Infrastrcture.csproj",
-      "msbuildProject": "../AM.Infrastrcture/AM.Infrastrcture.csproj"
+      "path": "../AM.Infrastructure/AM.Infrastructure.csproj",
+      "msbuildProject": "../AM.Infrastructure/AM.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AM.Infrastrcture >= 1.0.0",
+      "AM.ApplicationCore >= 1.0.0",
+      "AM.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
-      "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.13"
     ]
   },
   "packageFolders": {
@@ -3029,11 +3067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "packagesPath": "C:\\Users\\MSII\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\obj\\",
+      "outputPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3050,8 +3088,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj": {
-              "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj"
+            "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            },
+            "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }
@@ -3070,13 +3111,13 @@
             "target": "Package",
             "version": "[7.0.13, )"
           },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.13, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.13, )"
           }

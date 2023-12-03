@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {}
+    "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\MSII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,11 +42,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.12, )"
             }
           },
           "imports": [
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj": {
+    "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj",
-        "projectName": "AM.Infrastrcture",
-        "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj",
+        "projectUniqueName": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectName": "AM.Infrastructure",
+        "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\MSII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\obj\\",
+        "outputPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
               }
             }
           }
@@ -115,7 +115,7 @@
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {
+    "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+        "projectUniqueName": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
         "projectName": "AM.UI.Console",
-        "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+        "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
         "packagesPath": "C:\\Users\\MSII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Console\\obj\\",
+        "outputPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj": {
-                "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastrcture\\AM.Infrastrcture.csproj"
+              "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              },
+              "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
               }
             }
           }
@@ -192,13 +195,13 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.13, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
             }

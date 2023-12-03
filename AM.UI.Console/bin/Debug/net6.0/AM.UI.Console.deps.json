@@ -8,10 +8,11 @@
     ".NETCoreApp,Version=v6.0": {
       "AM.UI.Console/1.0.0": {
         "dependencies": {
-          "AM.Infrastrcture": "1.0.0",
+          "AM.ApplicationCore": "1.0.0",
+          "AM.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.13"
         },
         "runtime": {
           "AM.UI.Console.dll": {}
@@ -178,15 +179,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Proxies/7.0.12": {
+      "Microsoft.EntityFrameworkCore.Proxies/7.0.13": {
         "dependencies": {
           "Castle.Core": "5.1.0",
           "Microsoft.EntityFrameworkCore": "7.0.13"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
-            "assemblyVersion": "7.0.12.0",
-            "fileVersion": "7.0.1223.47811"
+            "assemblyVersion": "7.0.13.0",
+            "fileVersion": "7.0.1323.51806"
           }
         }
       },
@@ -212,6 +213,11 @@
             "assemblyVersion": "7.0.13.0",
             "fileVersion": "7.0.1323.51806"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.13"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -688,15 +694,15 @@
           "AM.ApplicationCore.dll": {}
         }
       },
-      "AM.Infrastrcture/1.0.0": {
+      "AM.Infrastructure/1.0.0": {
         "dependencies": {
           "AM.ApplicationCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.Proxies": "7.0.12",
+          "Microsoft.EntityFrameworkCore.Proxies": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
         "runtime": {
-          "AM.Infrastrcture.dll": {}
+          "AM.Infrastructure.dll": {}
         }
       }
     }
@@ -791,12 +797,12 @@
       "path": "microsoft.entityframeworkcore.design/7.0.13",
       "hashPath": "microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Proxies/7.0.12": {
+    "Microsoft.EntityFrameworkCore.Proxies/7.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-13ehSyaRGGHOhAO8UJTVQC2zxkt7ya2jktt4By8ReteugYpkGqUehz3y4adV+/hY8qlJ4zrRdpSYmJYENAud5A==",
-      "path": "microsoft.entityframeworkcore.proxies/7.0.12",
-      "hashPath": "microsoft.entityframeworkcore.proxies.7.0.12.nupkg.sha512"
+      "sha512": "sha512-AwL8z9Ltskm06EpHeTRymeEW2U28m1RDA1hOCB0jMFRCGSUty5lBw4AiNlPdxOy1IMUDqi2ODHwXbN3xnxXH6Q==",
+      "path": "microsoft.entityframeworkcore.proxies/7.0.13",
+      "hashPath": "microsoft.entityframeworkcore.proxies.7.0.13.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.13": {
       "type": "package",
@@ -811,6 +817,13 @@
       "sha512": "sha512-86lPGt6HpkUgL+FHnu1nPmBmwvuBRqtYZPgj+sIhsF2OqRWOeQiXUjy3pspNgl1CK5goK5icjBAIlrl3LkMFuw==",
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.13",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z2edRVeoCqvWdNNHHoqbiNhRBetXfh/GBAga6bXM0mmRWzYZ0Y8F+jUFWF/8BUdnbv/8RAafIkWLVMT0jdxMLQ==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.13",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",
@@ -1146,7 +1159,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AM.Infrastrcture/1.0.0": {
+    "AM.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
