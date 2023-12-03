@@ -11285,11 +11285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Web\\AM.UI.Web.csproj",
+      "projectUniqueName": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Web\\AM.UI.Web.csproj",
       "projectName": "AM.UI.Web",
-      "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Web\\AM.UI.Web.csproj",
+      "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Web\\AM.UI.Web.csproj",
       "packagesPath": "C:\\Users\\MSII\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.UI.Web\\obj\\",
+      "outputPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.UI.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11306,11 +11306,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             },
-            "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\MSII\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
+            "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\MSII\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }
