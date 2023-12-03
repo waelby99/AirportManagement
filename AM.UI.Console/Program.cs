@@ -67,5 +67,5 @@ AMContext context =new AMContext();
 //context.Planes.Add(TestData.BoingPlane);
 
 context.Flights.Add(TestData.flight3);
-context.SaveChanges();
-Console.WriteLine(context.Flights.First().Plane.Capacity);
+//context.SaveChanges();
+//Console.WriteLine(context.Flights.First().Plane.Capacity);
